@@ -1,0 +1,49 @@
+
+      body {
+        /* height: 100vh;
+        width: 100vw; */
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        background-color: black;
+
+  }
+  .container {
+    width: 40rem;
+    height: 30rem;
+  }
+     
+  
+  
+  
+  
+  #game-board {
+        background-color: #ccc;
+        width: 40rem;
+        height: 30rem;
+        display: grid;
+        grid-template-rows: repeat(21, 1fr) ;
+        grid-template-columns: repeat(21, 1fr) ;
+        display: none;
+      }
+      #preloader {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        background: url('giphy.gif') no-repeat center; 
+        background-size: cover;
+      }
+
+      .snake {
+        background-color: hsl(200, 100%, 50%);
+        border: .25vmin solid black;
+      }
+
+      .food{
+        background-color: hsl(50, 100%, 50%);
+        border: .25vmin solid black;
+      }
+    
+ 
